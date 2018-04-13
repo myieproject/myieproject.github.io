@@ -1,0 +1,114 @@
+.about-body-container{
+    margin-top: 20px;   
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+}
+
+.first-box{
+    border-width: 0.5px;
+    height: 260px;
+    width: 30%;
+    
+    border-color: rgb(173, 173, 173);
+    border-style: solid;
+}
+
+.second-box{
+    border-width: 0.5px;    
+    height: 260px;
+    width: 63%;
+    border-color: rgb(173, 173, 173);
+    border-style: solid;
+}
+
+.field-button {
+    margin-top: 100px;
+    height: 3px;
+    width: 250px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white ;
+    line-height: 0.06em;
+    background-color:rgb(34, 96, 231);
+    border-style: solid;
+    border-color: rgb(34, 96, 231);
+    border-radius: 120px;
+    box-shadow: 0 0px #999;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:rgb(34, 96, 231);
+    opacity: 1; /* Firefox */
+}
+
+
+.field-button:hover {
+    margin-top: 100px;
+    height: 3px;
+    width: 250px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white ;
+    line-height: 0.06em;
+    background-color:rgb(34, 96, 231);
+    border-style: solid;
+    border-color: gray;
+    border-radius: 120px;
+    box-shadow: 0 0px #999;
+}
+
+.ozv-button{
+    margin-left: 99px;
+    margin-top: 10px;
+    height: 3px;
+    width: 65px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white ;
+    line-height: 0.06em;
+    background-color: black;
+    border-style: solid;
+    border-color: black;
+    border-radius: 120px;
+    box-shadow: 0 0px #999;
+}
+
+.ozv-button:hover{
+    margin-left: 99px;
+    margin-top: 10px;
+    height: 3px;
+    width: 70px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white ;
+    line-height: 0.06em;
+    background-color: black;
+    border-style: solid;
+    border-color: black;
+    border-radius: 120px;
+    box-shadow: 0 0px #999;
+}

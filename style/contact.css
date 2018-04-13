@@ -1,0 +1,104 @@
+.page-contact-body{
+    margin-top: 20px;
+    width: 80%;
+    margin-left:130px;
+}
+
+.red-alert{
+    background-color: rgba(155, 67, 67, 0.931);
+    color: white;
+    text-align: right;
+    font-size: 0.99em;
+    height: 53px;
+    margin-bottom: 10px;
+}
+
+.contact-box{
+    box-shadow: 10px 10px 5px grey;
+    height: 440px;
+}
+
+.contact-field{
+    width: 90%;
+}
+
+.contact-input{
+    margin-top: 10px;
+    background-color:rgba(185, 194, 243, 0.493);
+    text-align:right; 
+    border-radius: 5px; 
+}
+
+.contact-input:hover{
+    margin-top: 10px;   
+    background-color:white;
+    text-align:right; 
+    border-radius: 5px; 
+    border-color: rgb(34, 96, 231);
+}
+
+.ozv-button{
+    margin-top: 10px;
+    height: 2px;
+    width: 15%;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(34, 96, 231) ;
+    line-height: 0.06em;
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(34, 96, 231);
+    border-radius: 120px;
+    box-shadow: 0 0px #999;
+    margin-left:80px;
+    
+}
+
+.ozv-button:hover{
+    margin-top: 10px;
+    height: 2px;
+    width: 15%;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color:  white;
+    line-height: 0.06em;
+    background-color: rgb(34, 96, 231);
+    border-style: solid;
+    border-color: rgb(34, 96, 231);
+    border-radius: 120px;
+    box-shadow: 0 0px #999;
+    margin-left:80px;
+}
+
+.contact-info{
+    margin-left: 90px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.map-container{
+    display: flex;
+    justify-content: space-around;
+}
