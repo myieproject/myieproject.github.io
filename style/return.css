@@ -1,35 +1,33 @@
-.bottom-body{
+.bottom-body {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;       
+    margin-top: 20px;
 }
 
-.return-picture{
+.return-picture {
     width: 60%;
     height: 550px;
 }
 
-.return-body{
+.return-body {
     width: 35%;
 }
 
-.return-box{
+.return-box {
     box-shadow: 10px 10px 5px grey;
     height: 269px;
 }
 
-
-
-::placeholder { 
+::placeholder {
     color: rgb(73, 73, 73);
-    opacity: 1; 
+    opacity: 1;
 }
 
-::placeholder:hover { 
+::placeholder:hover {
     color: rgba(73, 73, 73, 0);
 }
 
-.ozv-button{
+.ozv-button {
     margin-top: 69px;
     height: 2px;
     width: 100%;
@@ -40,7 +38,7 @@
     text-align: center;
     text-decoration: none;
     outline: none;
-    color: white ;
+    color: white;
     line-height: 0.06em;
     background-color: rgb(34, 96, 231);
     border-style: solid;
@@ -49,7 +47,7 @@
     box-shadow: 0 0px #999;
 }
 
-.ozv-button:hover{
+.ozv-button:hover {
     margin-top: 69px;
     height: 2px;
     width: 100%;
@@ -60,7 +58,7 @@
     text-align: center;
     text-decoration: none;
     outline: none;
-    color: white ;
+    color: white;
     line-height: 0.06em;
     background-color: rgb(34, 96, 231);
     border-style: solid;
@@ -69,20 +67,20 @@
     box-shadow: 0 0px #999;
 }
 
-.return-input{
-    height:20px;
-    background-color:rgba(185, 194, 243, 0.493);
+.return-input {
+    height: 20px;
+    background-color: rgba(185, 194, 243, 0.493);
     border-color: rgba(185, 194, 243, 0.493);
-    text-align:right; 
-    border-radius: 120px; 
-    width:100%;
+    text-align: right;
+    border-radius: 120px;
+    width: 100%;
 }
 
-.return-input:hover{
-    height:20px;
-    background-color:white;
-    text-align:right; 
-    border-radius: 120px; 
+.return-input:hover {
+    height: 20px;
+    background-color: white;
+    text-align: right;
+    border-radius: 120px;
     border-color: rgb(34, 96, 231);
-    width:100%;
+    width: 100%;
 }

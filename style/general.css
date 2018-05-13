@@ -1,38 +1,35 @@
 @font-face {
     font-family: Shabnam;
     src: url('Shabnam.eot');
-    src: url('Shabnam.eot?#iefix') format('embedded-opentype'),
-         url('Shabnam.woff') format('woff'),
-         url('Shabnam.ttf') format('truetype');
+    src: url('Shabnam.eot?#iefix') format('embedded-opentype'), url('Shabnam.woff') format('woff'), url('Shabnam.ttf') format('truetype');
     font-weight: normal;
-  }
+}
 
-  *{
-      font-family: 'Shabnam';
-  }
+* {
+    font-family: 'Shabnam';
+}
 
-.page-header{
+.page-header {
     width: 93%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.top-panel{
+.top-panel {
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
 }
 
-.navbar{
+.navbar {
     margin-left: auto;
     margin-right: auto;
     display: flex;
     justify-content: space-around;
     width: 90%;
-    
 }
 
-.categories{
+.categories {
     margin-left: auto;
     margin-right: auto;
     width: 85%;
@@ -41,20 +38,21 @@
     justify-content: space-around;
 }
 
-.categories-category{
+.categories-category {
     color: gray;
 }
 
-.categories-category:hover{
-    color:rgb(34, 96, 231);
-    cursor:pointer;
+.categories-category:hover {
+    color: rgb(34, 96, 231);
+    cursor: pointer;
     border-bottom: 1px dashed rgb(34, 96, 231);
 }
 
-.top-title{
+.top-title {
     margin-top: -20px;
     color: gray;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Shabnam';
+    
     font-size: 30px;
 }
 
@@ -69,14 +67,14 @@
     outline: none;
     color: white;
     line-height: 0.06em;
-    background-color:gray;
+    background-color: gray;
     border-style: solid;
     border-color: gray;
     border-radius: 120px;
     box-shadow: 0 0px #999;
 }
 
-.login-button:hover{
+.login-button:hover {
     height: 20px;
     display: inline-block;
     padding: 15px 25px;
@@ -94,7 +92,7 @@
     box-shadow: 0 0px #999;
 }
 
-.top-buttons{
+.top-buttons {
     margin-top: -15px;
 }
 
@@ -109,7 +107,7 @@
     outline: none;
     color: gray;
     line-height: 0.08em;
-    background-color:white;
+    background-color: white;
     border-style: solid;
     border-color: gray;
     border-radius: 120px;
@@ -127,34 +125,32 @@
     outline: none;
     color: rgb(34, 96, 231);
     line-height: 0.08em;
-    background-color:white;
+    background-color: white;
     border-style: solid;
-    border-color: rgb(34, 96, 231); 
+    border-color: rgb(34, 96, 231);
     border-radius: 120px;
     box-shadow: 0 0px #999;
 }
 
-
-.top-search{
+.top-search {
     margin-top: -12px;
     text-align: center;
     border-radius: 80px;
     background: white url(search.png) left no-repeat;
 }
 
-.top-search-input{
-    border-radius: 120px;    
+.top-search-input {
+    border-radius: 120px;
     width: 240px;
     height: 20px;
 }
 
-
-.top-search-input:hover{
-    border-radius: 120px;    
+.top-search-input:hover {
+    border-radius: 120px;
     width: 240px;
     height: 20px;
     border-color: rgb(34, 96, 231) !important;
-    fill:  rgb(34, 96, 231) !important;
+    fill: rgb(34, 96, 231) !important;
 }
 
 .navbar-button {
@@ -170,7 +166,7 @@
     fill: gray;
     color: gray;
     line-height: 0.08em;
-    background-color:white;
+    background-color: white;
     border-style: solid;
     border-width: 1.5px;
     border-color: gray;
@@ -192,14 +188,14 @@
     fill: white !important;
     color: white !important;
     line-height: 0.08em;
-    background-color:rgb(34, 96, 231) !important;
+    background-color: rgb(34, 96, 231) !important;
     border-style: solid;
     border-color: rgb(34, 96, 231) !important;
     border-radius: 5px;
     box-shadow: 0 0px #999 !important;
 }
 
-.default-navbar-button{
+.default-navbar-button {
     font-weight: bold;
     height: 90px;
     width: 150px;
@@ -213,7 +209,7 @@
     fill: rgb(34, 96, 231);
     color: rgb(34, 96, 231);
     line-height: 0.08em;
-    background-color:white;
+    background-color: white;
     border-style: solid;
     border-color: rgb(34, 96, 231);
     border-radius: 5px;
@@ -231,26 +227,25 @@
     text-align: center;
     text-decoration: none;
     outline: none;
-    fill: white ;
-    color: white ;
+    fill: white;
+    color: white;
     line-height: 0.08em;
-    background-color:rgb(34, 96, 231) ;
+    background-color: rgb(34, 96, 231);
     border-style: solid;
-    border-color: rgb(34, 96, 231) ;
+    border-color: rgb(34, 96, 231);
     border-radius: 5px;
-    box-shadow: 0 0px #999 ;
-    
+    box-shadow: 0 0px #999;
 }
 
-.navbar-svg{
+.navbar-svg {
     height: 50px;
     width: 50px;
     margin-top: -15px;
-    margin-left:auto;
+    margin-left: auto;
     margin-right: auto;
 }
 
-.page-footer{
+.page-footer {
     margin-top: 40px;
     bottom: 0;
     left: 0;
@@ -262,7 +257,7 @@
     width: 100%;
 }
 
-.page-footer-copyright{
+.page-footer-copyright {
     color: rgb(46, 45, 45);
     width: 25%;
     margin-top: 20px;
@@ -271,80 +266,83 @@
     font-weight: 700;
 }
 
-.page-footer-social{
+.page-footer-social {
     margin-top: 20px;
 }
 
-.page-footer-social-text{
-    font-size:1.3ex;
+.page-footer-social-text {
+    font-size: 1.3ex;
     font-weight: 600;
-    text-align: center; 
+    text-align: center;
     color: rgb(51, 51, 51);
 }
 
-.page-footer-list{
+.page-footer-list {
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
-.footer-entry{
-    
+.footer-entry {
     margin-top: 2px;
     font-size: 0.8em;
     color: rgb(65, 64, 64);
-    text-align: center;  
+    text-align: center;
 }
 
-.footer-entry:hover{
+.footer-entry:hover {
     font-weight: 900;
     cursor: pointer;
     color: rgb(34, 96, 231);
     margin-top: 2px;
     font-size: 0.8em;
-    text-align: center;  
+    text-align: center;
 }
 
-.page-footer-social-icons{
+.page-footer-social-icons {
     position: relative;
     left: 40px;
-    width:60%;
-    margin-top: 10px;   
+    width: 60%;
+    margin-top: 10px;
     display: flex;
-    justify-content: space-around;      
+    justify-content: space-around;
 }
 
-.social-logo{
+.social-logo {
     left: 30px;
-    margin-left:auto;
-    margin-right: auto; 
+    margin-left: auto;
+    margin-right: auto;
     fill: gray;
     width: 32px;
-    height: 32px;  
+    height: 32px;
 }
 
-.social-logo:hover{
+.social-logo:hover {
     left: 30px;
-    margin-left:auto;
-    margin-right: auto; 
+    margin-left: auto;
+    margin-right: auto;
     cursor: pointer;
-    fill: rgb(34, 96, 231);;
+    fill: rgb(34, 96, 231);
+    ;
     width: 32px;
-    height: 32px;  
+    height: 32px;
 }
 
-.gray-title{
-    text-align:right; 
-    font-weight: 700; 
-    font-size:0.95em;  
-    color:gray;
+.gray-title {
+    text-align: right;
+    font-weight: 700;
+    font-size: 0.95em;
+    color: gray;
 }
 
-.gray-body{
-    margin-top:10px; text-align:right; font-size:0.85em;  color: gray;
+.gray-body {
+    margin-top: 10px;
+    text-align: right;
+    font-size: 0.85em;
+    color: gray;
     width: 100%;
 }
 
-.blutex{
+.blutex {
     text-align: right;
     color: rgb(34, 96, 231);
     font-size: 0.8em;

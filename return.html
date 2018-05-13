@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style/general.css">
     <link rel="stylesheet" type="text/css" href="style/return.css">
+    <link rel="stylesheet" type="text/css" href="style/support.css">
+    <script type="text/javascript" src="support.js"></script>
 </head>
 
 <body>
@@ -168,18 +170,16 @@
                         مشخصات سفارش
                     </div>
                     <hr style="margin-top:6px; width:89%; color:transparent">
-                    
+
                     <div style="width: 88%">
                         <div class="blutex">
                             شهر
                         </div>
-                        <input class="return-input" type="text" name="login" class="form-control"
-                        placeholder="شهر خود را وارد کنید ">
+                        <input class="return-input" type="text" name="login" class="form-control" placeholder="شهر خود را وارد کنید ">
                         <div class="blutex">
                             شماره سفارش
                         </div>
-                        <input class="return-input" type="text" name="login" class="form-control"
-                        placeholder="شماره فاکتور سفارش را وارد کنید ">
+                        <input class="return-input" type="text" name="login" class="form-control" placeholder="شماره فاکتور سفارش را وارد کنید ">
                         <br>
                         <button class="ozv-button">
                             ثبت درخواست
@@ -322,7 +322,95 @@
             </div>
 
         </div>
+
     </div>
+    <div id="minimized-support" onclick="maximize()">
+        <span id="minimized-support-text">
+            پشتیبانی آنلاین
+        </span>
+        <span>
+            <img id="minimized-support-logo" src="icons/chat.png"></img>
+        </span>
+    </div>
+
+    <div id="maximized-support">
+        <div id="maximized-support-top">
+            <div id="maximized-support-top-minimize-button">
+                <img src="icons/minimize.png" onclick="minimize()" />
+            </div>
+
+            <div id="supporter-text">
+                <div id="supporter-role">
+                    پشتیبان بخش فروش
+                </div>
+                <div id="supporter-name">
+                    اسم پشتیبان
+                </div>
+
+            </div>
+            <div id="supporter-picture">
+                <img id="supporter-picture-link" src="" />
+            </div>
+
+
+        </div>
+
+        <div id="chatbox">
+            <br>
+        </div>
+
+        <div id="chat-form">
+            <span id="send-logo">
+                <img height="100%" onclick="sendMessage();" width="100%" src="icons/send.png" style="cursor: pointer;" />
+            </span>
+            <input type="text" name="message" id="chat-text-area" placeholder="پیامتون رو بنویسید"></input>
+        </div>
+
+    </div>
+
+    <div id="minimized-support" onclick="maximize()">
+            <span id="minimized-support-text">
+                پشتیبانی آنلاین
+            </span>
+            <span>
+                <img id="minimized-support-logo" src="icons/chat.png"></img>
+            </span>
+        </div>
+    
+        <div id="maximized-support">
+            <div id="maximized-support-top">
+                <div id="maximized-support-top-minimize-button">
+                    <img src="icons/minimize.png" onclick="minimize()" />
+                </div>
+    
+                <div id="supporter-text">
+                    <div id="supporter-role">
+                        پشتیبان بخش فروش
+                    </div>
+                    <div id="supporter-name">
+                        اسم پشتیبان
+                    </div>
+    
+                </div>
+                <div id="supporter-picture">
+                    <img id="supporter-picture-link" src="" />
+                </div>
+    
+    
+            </div>
+    
+            <div id="chatbox">
+                <br>
+            </div>
+    
+            <div id="chat-form">
+                <span id="send-logo">
+                    <img height="100%" onclick="sendMessage();" width="100%" src="icons/send.png" style="cursor: pointer;" />
+                </span>
+                <input type="text" name="message" id="chat-text-area" placeholder="پیامتون رو بنویسید"></input>
+            </div>
+    
+        </div>
 </body>
 
 </html>

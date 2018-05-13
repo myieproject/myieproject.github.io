@@ -1,5 +1,5 @@
-.about-body-container{
-    margin-top: 20px;   
+.about-body-container {
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -7,17 +7,16 @@
     width: 85%;
 }
 
-.first-box{
+.first-box {
     border-width: 0.5px;
     height: 260px;
     width: 30%;
-    
     border-color: rgb(173, 173, 173);
     border-style: solid;
 }
 
-.second-box{
-    border-width: 0.5px;    
+.second-box {
+    border-width: 0.5px;
     height: 260px;
     width: 63%;
     border-color: rgb(173, 173, 173);
@@ -35,20 +34,21 @@
     text-align: center;
     text-decoration: none;
     outline: none;
-    color: white ;
+    color: white;
     line-height: 0.06em;
-    background-color:rgb(34, 96, 231);
+    background-color: rgb(34, 96, 231);
     border-style: solid;
     border-color: rgb(34, 96, 231);
     border-radius: 120px;
     box-shadow: 0 0px #999;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color:rgb(34, 96, 231);
-    opacity: 1; /* Firefox */
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(34, 96, 231);
+    opacity: 1;
+    /* Firefox */
 }
-
 
 .field-button:hover {
     margin-top: 100px;
@@ -62,16 +62,16 @@
     text-align: center;
     text-decoration: none;
     outline: none;
-    color: white ;
+    color: white;
     line-height: 0.06em;
-    background-color:rgb(34, 96, 231);
+    background-color: rgb(34, 96, 231);
     border-style: solid;
     border-color: gray;
     border-radius: 120px;
     box-shadow: 0 0px #999;
 }
 
-.ozv-button{
+.ozv-button {
     margin-left: 99px;
     margin-top: 10px;
     height: 3px;
@@ -83,7 +83,7 @@
     text-align: center;
     text-decoration: none;
     outline: none;
-    color: white ;
+    color: white;
     line-height: 0.06em;
     background-color: black;
     border-style: solid;
@@ -92,7 +92,7 @@
     box-shadow: 0 0px #999;
 }
 
-.ozv-button:hover{
+.ozv-button:hover {
     margin-left: 99px;
     margin-top: 10px;
     height: 3px;
@@ -104,7 +104,7 @@
     text-align: center;
     text-decoration: none;
     outline: none;
-    color: white ;
+    color: white;
     line-height: 0.06em;
     background-color: black;
     border-style: solid;

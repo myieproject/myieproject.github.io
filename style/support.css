@@ -1,0 +1,177 @@
+#minimized-support {
+    background-color: rgb(34, 96, 231);
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    visibility: visible;
+    color: white;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    z-index: 3;
+    width: 250px;
+    height: 50px;
+}
+
+#minimized-support:hover {
+    background-color: rgb(34, 96, 231);
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    cursor: pointer;
+    visibility: visible;
+    color: white;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    z-index: 3;
+    width: 250px;
+    height: 50px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+#maximized-support {
+    background-color: rgb(201, 201, 206);
+    ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 370px;
+    width: 300px;
+    visibility: hidden;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    z-index: 3;
+}
+
+#maximized-support-top {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(34, 96, 231);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 18%;
+}
+
+#minimized-support-text {
+    left: 40px;
+    bottom: 14px;
+    position: absolute;
+}
+
+#minimized-support-logo {
+    right: 20px;
+    bottom: 10px;
+    position: absolute;
+    height: 30px;
+    width: 40px;
+}
+
+#maximized-support-top-minimize-button {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#supporter-text {
+    position: relative;
+    left: 30%;
+    margin-top: 11px;
+    color: white;
+    font-size: 0.9em;
+}
+
+#supporter-picture-link {
+    border-radius: 10px;
+    position: relative;
+    height: 80%;
+    width: 80%;
+    top: 10px;
+}
+
+#chatbox {
+    overflow-y: scroll;
+    background: rgb(201, 201, 206);
+    height: 70%;
+}
+
+#chat-form {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    height: 10%;
+}
+
+#chat-text-area {
+    width: 90%;
+    height: 90%;
+    text-align: right;
+    border-color: rgb(148, 147, 147);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+#send-logo {
+    width: 20%;
+    border-color: rgb(216, 212, 212);
+    border: solid;
+}
+
+::placeholder {
+    color: rgb(34, 96, 231);
+    opacity: 1;
+}
+
+.my-message {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    left: 10px;
+    float: left;
+}
+
+.my-avatar {
+    border-radius: 3px;
+    height: 30px;
+    width: 30px;
+}
+
+.my-message-text {
+    font-size: 0.8em;    
+    border-radius: 3px;
+    text-align: center;
+    position: relative;
+    width: 190px;
+    background: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px; 
+}
+
+.supporter-message {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 10px;
+    float: right;
+}
+
+.supporter-avatar {
+    border-radius: 3px;
+    height: 30px;
+    width: 30px;
+}
+
+.supporter-message-text {
+    font-size: 0.8em;
+    border-radius: 3px;
+    text-align: center;
+    position: relative;
+    width: 190px;
+    background: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px; 
+}
