@@ -11,14 +11,12 @@ function maximize() {
         setInterval(fetch, 3000);
     }
     minimized = !minimized;
-    console.log("minimized");
 }
 
 function minimize() {
     document.getElementById("minimized-support").setAttribute("style", "visibility: visible;")
     document.getElementById("maximized-support").setAttribute("style", "visibility: hidden;")
     minimized = !minimized;
-    console.log("maximized");
 }
 
 function firstLoad() {
@@ -27,8 +25,6 @@ function firstLoad() {
     initialRequest.send();
     initialRequest.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
-            console.log("first loading");
-            console.log(this.responseText);
         }
     };
 
@@ -37,10 +33,7 @@ function firstLoad() {
     supporterRequest.send();
     supporterRequest.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
-            console.log("first supporter fetching");
             var myObj = JSON.parse(this.responseText);
-            console.log(this.responseText);
-            console.log(myObj);
             document.getElementById("supporter-name").innerHTML = myObj.support.first + " " + myObj.support.last;
             document.getElementById("supporter-picture-link").src = myObj.support.picture;
             pictureSrc = myObj.support.picture;
@@ -73,7 +66,8 @@ function sendMessage() {
     };
     xhttp.open("POST", "http://51.15.59.130:46260/send", true);
     xhttp.setRequestHeader("Content-type", "application/json");
-    xhttp.send(JSON.stringify({message:"jafar"}));
+    var jsonString = "{\"message\":" + "\"" + message + "\"}";
+    xhttp.send(jsonString);
     return false;
 }
 
@@ -83,11 +77,9 @@ function fetch() {
     fetchRequest.send();
     fetchRequest.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
-           
-            console.log(this.responseText);
+
             var myObj = JSON.parse(this.responseText);
             var message = myObj.responses[0].message;
-            console.log(message);
             var myMessage = document.createElement("div");
             var myAvatar = document.createElement("img");
             var messageText = document.createElement("span");
@@ -97,7 +89,7 @@ function fetch() {
             myAvatar.setAttribute("src", pictureSrc)
             myMessage.setAttribute("class", "supporter-message");
             myMessage.appendChild(messageText);
-            
+
             myMessage.appendChild(myAvatar);
             document.getElementById("chatbox").appendChild(myMessage);
             document.getElementById("chat-text-area").value = "";
